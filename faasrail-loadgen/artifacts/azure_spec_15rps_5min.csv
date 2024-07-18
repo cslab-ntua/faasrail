@@ -1,0 +1,245 @@
+avg,mapped_wreq,1-288,289-576,577-864,865-1152,1153-1440
+1633,"{""mean"": 1624.0, ""bench"": ""video_processing-91bb6c6"", ""payload"": ""{\""minio_address\"": \""icy1.cslab.ece.ntua.gr:59000\"", \""bucket_name\"": \""snaplace-fbpml\"", \""vid_name\"": \""big_buck_bunny_360p_2mb.mp4\""}""}",107,119,122,119,108
+295,"{""mean"": 294.3, ""bench"": ""image_rotate-2987f70faa3"", ""payload"": ""{\""minio_address\"": \""icy1.cslab.ece.ntua.gr:59000\"", \""bucket_name\"": \""snaplace-fbpml\"", \""img_name\"": \""img107k.jpeg\"", \""ops\"": \""filter-flip-gray_scale-rotate\""}""}",82,81,82,84,84
+265,"{""mean"": 265.9, ""bench"": ""matmul_fb-ada33fd5b30f0c"", ""payload"": ""{\""N\"": 568, \""M\"": 568}""}",44,44,45,44,45
+31,"{""mean"": 31.2, ""bench"": ""chameleon-61939efde6a3f9"", ""payload"": ""{\""nrow\"": 76, \""ncol\"": 76}""}",24,25,27,26,24
+43,"{""mean"": 42.8, ""bench"": ""image_rotate-ef378c59f7a"", ""payload"": ""{\""minio_address\"": \""icy1.cslab.ece.ntua.gr:59000\"", \""bucket_name\"": \""snaplace-fbpml\"", \""img_name\"": \""img230k.jpeg\"", \""ops\"": \""flip-rotate\""}""}",16,22,29,30,22
+4,"{""mean"": 4.0, ""bench"": ""rnn_serving-a18c442bdf41"", ""payload"": ""{\""minio_address\"": \""icy1.cslab.ece.ntua.gr:59000\"", \""bucket_name\"": \""snaplace-fbpml\"", \""language\"": \""Vietnamese\"", \""start_letters\"": \""ABCXYZ\"", \""model_parameter_object_key\"": \""rnn_params.pkl\"", \""model_object_key\"": \""rnn_model.pth\""}""}",20,28,25,22,21
+19,"{""mean"": 18.9, ""bench"": ""image_rotate-6c4730dab3d"", ""payload"": ""{\""minio_address\"": \""icy1.cslab.ece.ntua.gr:59000\"", \""bucket_name\"": \""snaplace-fbpml\"", \""img_name\"": \""img201k.jpeg\"", \""ops\"": \""resize\""}""}",21,23,24,24,23
+6,"{""mean"": 6.0, ""bench"": ""matmul_fb-af096d6215b6f6"", ""payload"": ""{\""N\"": 168, \""M\"": 168}""}",11,17,29,25,17
+79,"{""mean"": 79.3, ""bench"": ""image_rotate-1c06940b459"", ""payload"": ""{\""minio_address\"": \""icy1.cslab.ece.ntua.gr:59000\"", \""bucket_name\"": \""snaplace-fbpml\"", \""img_name\"": \""img107k.jpeg\"", \""ops\"": \""flip-gray_scale-resize-rotate\""}""}",19,23,22,19,16
+2,"{""mean"": 2.0, ""bench"": ""lr_serving-5bb35e320e18e"", ""payload"": ""{\""minio_address\"": \""icy1.cslab.ece.ntua.gr:59000\"", \""bucket_name\"": \""snaplace-fbpml\"", \""model_object_key\"": \""lr_model_reviews50mb.pk\"", \""tfidf_vect_object_key\"": \""lr_vectorizer_reviews50mb.pk\"", \""x\"": \""The ambiance is magical. The food and service was nice! The lobster and cheese was to die for and our steaks were cooked perfectly.  \""}""}",19,18,19,20,20
+14,"{""mean"": 13.9, ""bench"": ""image_rotate-7af9ac7de9c"", ""payload"": ""{\""minio_address\"": \""icy1.cslab.ece.ntua.gr:59000\"", \""bucket_name\"": \""snaplace-fbpml\"", \""img_name\"": \""img072k.jpeg\"", \""ops\"": \""gray_scale\""}""}",18,18,17,17,17
+18,"{""mean"": 18.0, ""bench"": ""matmul_fb-1419da268285e9"", ""payload"": ""{\""N\"": 240, \""M\"": 240}""}",8,23,14,18,12
+28,"{""mean"": 27.8, ""bench"": ""image_rotate-7dddf273802"", ""payload"": ""{\""minio_address\"": \""icy1.cslab.ece.ntua.gr:59000\"", \""bucket_name\"": \""snaplace-fbpml\"", \""img_name\"": \""img032k.jpeg\"", \""ops\"": \""filter-gray_scale-resize\""}""}",13,13,15,15,14
+1,"{""mean"": 1.0, ""bench"": ""matmul_fb-aac18bbfd32f73"", ""payload"": ""{\""N\"": 96, \""M\"": 96}""}",9,14,15,14,11
+0,"{""mean"": 0.0, ""bench"": ""matmul_fb-1163cbfef04474"", ""payload"": ""{\""N\"": 8, \""M\"": 8}""}",12,13,13,12,12
+244,"{""mean"": 243.8, ""bench"": ""chameleon-f385b3120de5d5"", ""payload"": ""{\""nrow\"": 264, \""ncol\"": 264}""}",6,2,8,27,14
+242,"{""mean"": 243.8, ""bench"": ""chameleon-f385b3120de5d5"", ""payload"": ""{\""nrow\"": 264, \""ncol\"": 264}""}",12,11,12,12,9
+30,"{""mean"": 30.0, ""bench"": ""pyaes-ed4a0797fa5e08334b"", ""payload"": ""{\""message_length\"": 4736, \""num_iterations\"": 1}""}",13,11,10,10,10
+126,"{""mean"": 126.1, ""bench"": ""json_serdes-0acf29630a34"", ""payload"": ""{\""minio_address\"": \""icy1.cslab.ece.ntua.gr:59000\"", \""bucket_name\"": \""snaplace-fbpml\"", \""file_name\"": \""gen02_n3712.json\""}""}",4,1,17,16,13
+63,"{""mean"": 63.1, ""bench"": ""matmul_fb-e07cad87291c18"", ""payload"": ""{\""N\"": 360, \""M\"": 360}""}",8,9,9,9,9
+5,"{""mean"": 5.0, ""bench"": ""matmul_fb-d805416b5dcc45"", ""payload"": ""{\""N\"": 160, \""M\"": 160}""}",13,13,3,3,3
+16821,"{""mean"": 20802.8, ""bench"": ""lr_training-76dbbdb25bea"", ""payload"": ""{\""minio_address\"": \""icy1.cslab.ece.ntua.gr:59000\"", \""bucket_name\"": \""snaplace-fbpml\"", \""dataset_object_key\"": \""reviews50mb.csv\""}""}",6,9,8,7,3
+33,"{""mean"": 33.0, ""bench"": ""pyaes-06053dc636f8dd6d0b"", ""payload"": ""{\""message_length\"": 5184, \""num_iterations\"": 1}""}",6,6,7,7,7
+110,"{""mean"": 109.6, ""bench"": ""pyaes-38d72d7bbc7f134999"", ""payload"": ""{\""message_length\"": 17408, \""num_iterations\"": 1}""}",7,6,7,6,6
+127,"{""mean"": 126.1, ""bench"": ""json_serdes-0acf29630a34"", ""payload"": ""{\""minio_address\"": \""icy1.cslab.ece.ntua.gr:59000\"", \""bucket_name\"": \""snaplace-fbpml\"", \""file_name\"": \""gen02_n3712.json\""}""}",8,11,7,2,2
+32,"{""mean"": 32.0, ""bench"": ""pyaes-c3d44c006cedf58386"", ""payload"": ""{\""message_length\"": 32, \""num_iterations\"": 101}""}",6,7,6,6,6
+239,"{""mean"": 237.2, ""bench"": ""pyaes-69dd8b7a51b14dfaf7"", ""payload"": ""{\""message_length\"": 512, \""num_iterations\"": 76}""}",6,5,5,5,6
+26,"{""mean"": 26.2, ""bench"": ""image_rotate-6b036592ef8"", ""payload"": ""{\""minio_address\"": \""icy1.cslab.ece.ntua.gr:59000\"", \""bucket_name\"": \""snaplace-fbpml\"", \""img_name\"": \""img146k.jpeg\"", \""ops\"": \""flip-gray_scale\""}""}",4,5,5,5,5
+9,"{""mean"": 9.0, ""bench"": ""pyaes-5902c26d5935239c82"", ""payload"": ""{\""message_length\"": 1472, \""num_iterations\"": 1}""}",6,4,3,5,6
+572,"{""mean"": 567.6, ""bench"": ""chameleon-97e55569b30520"", ""payload"": ""{\""nrow\"": 408, \""ncol\"": 408}""}",3,4,5,6,5
+12,"{""mean"": 12.1, ""bench"": ""rnn_serving-c4c74d44a747"", ""payload"": ""{\""minio_address\"": \""icy1.cslab.ece.ntua.gr:59000\"", \""bucket_name\"": \""snaplace-fbpml\"", \""language\"": \""Greek\"", \""start_letters\"": \""QRSTUVWXYZABCDEF\"", \""model_parameter_object_key\"": \""rnn_params.pkl\"", \""model_object_key\"": \""rnn_model.pth\""}""}",4,3,4,6,5
+208,"{""mean"": 208.1, ""bench"": ""json_serdes-43d9dd4d8c63"", ""payload"": ""{\""minio_address\"": \""icy1.cslab.ece.ntua.gr:59000\"", \""bucket_name\"": \""snaplace-fbpml\"", \""file_name\"": \""gen02_n6400.json\""}""}",3,3,5,5,5
+52,"{""mean"": 51.5, ""bench"": ""pyaes-483015007094a16191"", ""payload"": ""{\""message_length\"": 8128, \""num_iterations\"": 1}""}",3,4,5,6,4
+36,"{""mean"": 36.0, ""bench"": ""pyaes-0d354323215e37e33e"", ""payload"": ""{\""message_length\"": 5632, \""num_iterations\"": 1}""}",5,4,3,4,5
+73,"{""mean"": 72.8, ""bench"": ""chameleon-6c676a75abd8a6"", ""payload"": ""{\""nrow\"": 136, \""ncol\"": 136}""}",1,2,3,6,7
+15,"{""mean"": 15.0, ""bench"": ""chameleon-74d4308a2a3a31"", ""payload"": ""{\""nrow\"": 32, \""ncol\"": 32}""}",3,5,4,4,3
+55,"{""mean"": 55.0, ""bench"": ""matmul_fb-c1c45aa2d04252"", ""payload"": ""{\""N\"": 344, \""M\"": 344}""}",3,3,4,5,4
+3,"{""mean"": 3.0, ""bench"": ""matmul_fb-e46e1e1022c74c"", ""payload"": ""{\""N\"": 128, \""M\"": 128}""}",4,3,3,5,3
+857,"{""mean"": 860.5, ""bench"": ""chameleon-2c3fcfd4b22311"", ""payload"": ""{\""nrow\"": 504, \""ncol\"": 504}""}",4,4,3,4,4
+4269,"{""mean"": 4232.6, ""bench"": ""pyaes-368569536ef6bb7292"", ""payload"": ""{\""message_length\"": 14336, \""num_iterations\"": 51}""}",4,3,4,3,4
+34,"{""mean"": 34.0, ""bench"": ""pyaes-c0f45a1de88d8747a9"", ""payload"": ""{\""message_length\"": 16, \""num_iterations\"": 151}""}",3,2,3,4,4
+24,"{""mean"": 24.0, ""bench"": ""pyaes-b70f6240bce755fe64"", ""payload"": ""{\""message_length\"": 3776, \""num_iterations\"": 1}""}",4,4,4,3,3
+440,"{""mean"": 444.3, ""bench"": ""chameleon-7614e52b463374"", ""payload"": ""{\""nrow\"": 360, \""ncol\"": 360}""}",2,3,5,5,3
+37,"{""mean"": 37.0, ""bench"": ""chameleon-df5f810d99eac5"", ""payload"": ""{\""nrow\"": 88, \""ncol\"": 88}""}",4,4,5,2,2
+13,"{""mean"": 13.0, ""bench"": ""matmul_fb-143623b9c5009f"", ""payload"": ""{\""N\"": 216, \""M\"": 216}""}",1,2,5,5,3
+45,"{""mean"": 45.1, ""bench"": ""matmul_fb-7bcf3917015314"", ""payload"": ""{\""N\"": 320, \""M\"": 320}""}",2,3,3,4,3
+38,"{""mean"": 38.0, ""bench"": ""matmul_fb-241ea3132269f7"", ""payload"": ""{\""N\"": 304, \""M\"": 304}""}",3,2,2,3,3
+418,"{""mean"": 421.4, ""bench"": ""json_serdes-78e0bf35457a"", ""payload"": ""{\""minio_address\"": \""icy1.cslab.ece.ntua.gr:59000\"", \""bucket_name\"": \""snaplace-fbpml\"", \""file_name\"": \""gen02_n13312.json\""}""}",1,2,3,4,4
+87,"{""mean"": 86.8, ""bench"": ""pyaes-5d81f51317c8bdae97"", ""payload"": ""{\""message_length\"": 96, \""num_iterations\"": 126}""}",2,6,3,0,1
+107,"{""mean"": 106.0, ""bench"": ""pyaes-4ebd86c0e3e280450d"", ""payload"": ""{\""message_length\"": 336, \""num_iterations\"": 51}""}",3,2,2,3,3
+75,"{""mean"": 74.3, ""bench"": ""pyaes-a5ae7bc23ccefa54c1"", ""payload"": ""{\""message_length\"": 11776, \""num_iterations\"": 1}""}",2,2,3,3,3
+7230,"{""mean"": 7187.2, ""bench"": ""chameleon-99d67cd12990f3"", ""payload"": ""{\""nrow\"": 1472, \""ncol\"": 1472}""}",2,2,1,3,4
+49,"{""mean"": 48.7, ""bench"": ""pyaes-52eef2f545abb88b33"", ""payload"": ""{\""message_length\"": 7680, \""num_iterations\"": 1}""}",4,3,2,2,2
+57,"{""mean"": 57.0, ""bench"": ""pyaes-c3896e71bda910c56c"", ""payload"": ""{\""message_length\"": 352, \""num_iterations\"": 26}""}",2,2,2,2,2
+210,"{""mean"": 208.1, ""bench"": ""json_serdes-43d9dd4d8c63"", ""payload"": ""{\""minio_address\"": \""icy1.cslab.ece.ntua.gr:59000\"", \""bucket_name\"": \""snaplace-fbpml\"", \""file_name\"": \""gen02_n6400.json\""}""}",2,2,2,2,2
+749,"{""mean"": 753.0, ""bench"": ""chameleon-445653043c4e13"", ""payload"": ""{\""nrow\"": 472, \""ncol\"": 472}""}",2,2,2,2,2
+1157,"{""mean"": 1150.0, ""bench"": ""chameleon-2429c9fc2fc77c"", ""payload"": ""{\""nrow\"": 584, \""ncol\"": 584}""}",2,2,2,2,2
+11,"{""mean"": 11.0, ""bench"": ""rnn_serving-0abbab7c5358"", ""payload"": ""{\""minio_address\"": \""icy1.cslab.ece.ntua.gr:59000\"", \""bucket_name\"": \""snaplace-fbpml\"", \""language\"": \""Scottish\"", \""start_letters\"": \""ABCDEFGHIJKLMNOP\"", \""model_parameter_object_key\"": \""rnn_params.pkl\"", \""model_object_key\"": \""rnn_model.pth\""}""}",1,2,2,3,2
+212,"{""mean"": 210.2, ""bench"": ""pyaes-89a7f312f9e04d99f9"", ""payload"": ""{\""message_length\"": 336, \""num_iterations\"": 101}""}",2,2,2,2,2
+64,"{""mean"": 64.0, ""bench"": ""pyaes-de17185298cfda82e1"", ""payload"": ""{\""message_length\"": 32, \""num_iterations\"": 201}""}",2,2,2,3,2
+54,"{""mean"": 54.0, ""bench"": ""pyaes-620e44ac1ab56aea48"", ""payload"": ""{\""message_length\"": 336, \""num_iterations\"": 26}""}",2,2,2,2,2
+238,"{""mean"": 235.8, ""bench"": ""pyaes-93961126ed58d9f0b9"", ""payload"": ""{\""message_length\"": 784, \""num_iterations\"": 51}""}",2,2,2,2,2
+207,"{""mean"": 208.1, ""bench"": ""json_serdes-43d9dd4d8c63"", ""payload"": ""{\""minio_address\"": \""icy1.cslab.ece.ntua.gr:59000\"", \""bucket_name\"": \""snaplace-fbpml\"", \""file_name\"": \""gen02_n6400.json\""}""}",1,1,3,4,2
+94,"{""mean"": 93.7, ""bench"": ""pyaes-595123f57a95519143"", ""payload"": ""{\""message_length\"": 14848, \""num_iterations\"": 1}""}",2,2,2,2,2
+8,"{""mean"": 8.0, ""bench"": ""matmul_fb-8881d1c55e2de7"", ""payload"": ""{\""N\"": 184, \""M\"": 184}""}",2,2,2,2,2
+50,"{""mean"": 50.3, ""bench"": ""new_lr_serving-bf956d40f"", ""payload"": ""{\""minio_address\"": \""icy1.cslab.ece.ntua.gr:59000\"", \""bucket_name\"": \""snaplace-fbpml\"", \""model_object_key\"": \""lr_model_reviews10mb.pk\"", \""tfidf_vect_object_key\"": \""lr_vectorizer_reviews10mb.pk\"", \""x\"": \""My favorite cafe. I like going there on weekends, always taking a cafe and some of their pastry before visiting my parents.  \""}""}",2,2,2,2,2
+993,"{""mean"": 1002.2, ""bench"": ""video_processing-3d4bd40"", ""payload"": ""{\""minio_address\"": \""icy1.cslab.ece.ntua.gr:59000\"", \""bucket_name\"": \""snaplace-fbpml\"", \""vid_name\"": \""big_buck_bunny_480p_1mb.mp4\""}""}",1,2,2,2,2
+869,"{""mean"": 860.5, ""bench"": ""chameleon-2c3fcfd4b22311"", ""payload"": ""{\""nrow\"": 504, \""ncol\"": 504}""}",2,2,2,2,2
+42,"{""mean"": 41.8, ""bench"": ""chameleon-c1edffb5aba455"", ""payload"": ""{\""nrow\"": 96, \""ncol\"": 96}""}",2,1,2,2,2
+81,"{""mean"": 81.4, ""bench"": ""chameleon-9c8958ad2d2358"", ""payload"": ""{\""nrow\"": 144, \""ncol\"": 144}""}",1,1,2,2,2
+2282,"{""mean"": 2260.8, ""bench"": ""pyaes-1ffe81cca728fa8d0b"", ""payload"": ""{\""message_length\"": 3840, \""num_iterations\"": 101}""}",1,1,2,2,2
+16,"{""mean"": 16.0, ""bench"": ""chameleon-d3ee78008884e4"", ""payload"": ""{\""nrow\"": 36, \""ncol\"": 36}""}",1,2,2,2,2
+71,"{""mean"": 71.0, ""bench"": ""pyaes-d3cad6d3432ed9d341"", ""payload"": ""{\""message_length\"": 448, \""num_iterations\"": 26}""}",0,1,2,2,2
+3800,"{""mean"": 3797.1, ""bench"": ""matmul_fb-cf99ed20ea8e5a"", ""payload"": ""{\""N\"": 1344, \""M\"": 1344}""}",1,3,1,2,1
+48,"{""mean"": 48.0, ""bench"": ""matmul_fb-a76cb111c73412"", ""payload"": ""{\""N\"": 328, \""M\"": 328}""}",2,2,2,2,2
+259,"{""mean"": 256.8, ""bench"": ""chameleon-396ec767ad9f73"", ""payload"": ""{\""nrow\"": 272, \""ncol\"": 272}""}",2,2,2,1,1
+53,"{""mean"": 52.7, ""bench"": ""json_serdes-0cd5cb6da94e"", ""payload"": ""{\""minio_address\"": \""icy1.cslab.ece.ntua.gr:59000\"", \""bucket_name\"": \""snaplace-fbpml\"", \""file_name\"": \""gen02_n1408.json\""}""}",1,1,2,2,1
+214,"{""mean"": 216.1, ""bench"": ""chameleon-6ed55e1932e7ab"", ""payload"": ""{\""nrow\"": 248, \""ncol\"": 248}""}",1,1,1,1,1
+1520,"{""mean"": 1522.9, ""bench"": ""chameleon-ff8896a9f94721"", ""payload"": ""{\""nrow\"": 672, \""ncol\"": 672}""}",1,1,1,1,1
+853,"{""mean"": 860.5, ""bench"": ""chameleon-2c3fcfd4b22311"", ""payload"": ""{\""nrow\"": 504, \""ncol\"": 504}""}",0,1,2,2,2
+35,"{""mean"": 35.1, ""bench"": ""chameleon-7e91b517c82dfc"", ""payload"": ""{\""nrow\"": 84, \""ncol\"": 84}""}",1,1,1,2,1
+650,"{""mean"": 654.1, ""bench"": ""matmul_fb-ee9f2f91ee1b94"", ""payload"": ""{\""N\"": 752, \""M\"": 752}""}",0,0,0,2,4
+7,"{""mean"": 7.0, ""bench"": ""matmul_fb-68ab419d4db4f0"", ""payload"": ""{\""N\"": 176, \""M\"": 176}""}",1,1,2,1,1
+40,"{""mean"": 40.4, ""bench"": ""chameleon-031754f4d76475"", ""payload"": ""{\""nrow\"": 92, \""ncol\"": 92}""}",1,1,2,2,1
+171,"{""mean"": 169.5, ""bench"": ""matmul_fb-88dba8d7065db9"", ""payload"": ""{\""N\"": 480, \""M\"": 480}""}",1,1,2,2,1
+17,"{""mean"": 17.1, ""bench"": ""json_serdes-fdd607a3105f"", ""payload"": ""{\""minio_address\"": \""icy1.cslab.ece.ntua.gr:59000\"", \""bucket_name\"": \""snaplace-fbpml\"", \""file_name\"": \""1.json\""}""}",1,1,1,2,1
+154,"{""mean"": 155.0, ""bench"": ""chameleon-f427733950a1b0"", ""payload"": ""{\""nrow\"": 208, \""ncol\"": 208}""}",1,1,1,1,1
+56,"{""mean"": 56.3, ""bench"": ""chameleon-9195b6b7fa8966"", ""payload"": ""{\""nrow\"": 116, \""ncol\"": 116}""}",1,1,1,1,1
+919,"{""mean"": 912.4, ""bench"": ""chameleon-9c286943da1ca8"", ""payload"": ""{\""nrow\"": 520, \""ncol\"": 520}""}",1,0,1,2,2
+352,"{""mean"": 350.2, ""bench"": ""json_serdes-a621af5b426c"", ""payload"": ""{\""minio_address\"": \""icy1.cslab.ece.ntua.gr:59000\"", \""bucket_name\"": \""snaplace-fbpml\"", \""file_name\"": \""gen02_n11008.json\""}""}",1,1,1,1,1
+69,"{""mean"": 69.0, ""bench"": ""pyaes-1e0141afce165bc87c"", ""payload"": ""{\""message_length\"": 432, \""num_iterations\"": 26}""}",1,1,1,1,1
+21,"{""mean"": 21.0, ""bench"": ""pyaes-46f9aa2930f54f45ff"", ""payload"": ""{\""message_length\"": 48, \""num_iterations\"": 51}""}",1,1,2,1,1
+342,"{""mean"": 343.1, ""bench"": ""matmul_fb-df8f3cce214a88"", ""payload"": ""{\""N\"": 608, \""M\"": 608}""}",1,1,1,2,1
+134,"{""mean"": 135.2, ""bench"": ""cnn_serving_geol-f9eecf9"", ""payload"": ""{\""img_idx\"": 0}""}",1,1,1,1,1
+68,"{""mean"": 68.1, ""bench"": ""matmul_fb-b72267e1002ab6"", ""payload"": ""{\""N\"": 368, \""M\"": 368}""}",1,1,1,1,1
+446,"{""mean"": 444.3, ""bench"": ""chameleon-7614e52b463374"", ""payload"": ""{\""nrow\"": 360, \""ncol\"": 360}""}",0,2,1,1,0
+135208,"{""mean"": 20802.8, ""bench"": ""lr_training-76dbbdb25bea"", ""payload"": ""{\""minio_address\"": \""icy1.cslab.ece.ntua.gr:59000\"", \""bucket_name\"": \""snaplace-fbpml\"", \""dataset_object_key\"": \""reviews50mb.csv\""}""}",1,1,1,3,1
+92,"{""mean"": 92.0, ""bench"": ""pyaes-bae189d83b7ed1ba04"", ""payload"": ""{\""message_length\"": 288, \""num_iterations\"": 51}""}",1,1,2,2,0
+147,"{""mean"": 148.2, ""bench"": ""json_serdes-85677aafebae"", ""payload"": ""{\""minio_address\"": \""icy1.cslab.ece.ntua.gr:59000\"", \""bucket_name\"": \""snaplace-fbpml\"", \""file_name\"": \""gen02_n4480.json\""}""}",1,1,1,1,1
+254,"{""mean"": 256.3, ""bench"": ""json_serdes-b4de0d2b5b15"", ""payload"": ""{\""minio_address\"": \""icy1.cslab.ece.ntua.gr:59000\"", \""bucket_name\"": \""snaplace-fbpml\"", \""file_name\"": \""gen02_n7936.json\""}""}",1,0,1,1,2
+531,"{""mean"": 526.4, ""bench"": ""pyaes-2e028f9b184242551a"", ""payload"": ""{\""message_length\"": 3520, \""num_iterations\"": 26}""}",1,1,1,1,1
+25,"{""mean"": 25.0, ""bench"": ""pyaes-6b201c241f85dbc15c"", ""payload"": ""{\""message_length\"": 3904, \""num_iterations\"": 1}""}",1,1,1,1,1
+47,"{""mean"": 47.0, ""bench"": ""chameleon-c45928c11bf0d4"", ""payload"": ""{\""nrow\"": 104, \""ncol\"": 104}""}",1,1,1,1,1
+151,"{""mean"": 149.6, ""bench"": ""pyaes-e90054cda7cec3bdff"", ""payload"": ""{\""message_length\"": 80, \""num_iterations\"": 251}""}",1,1,1,1,1
+269,"{""mean"": 267.3, ""bench"": ""pyaes-9ec8cd7eb8b66d40e2"", ""payload"": ""{\""message_length\"": 208, \""num_iterations\"": 201}""}",1,1,1,1,1
+245,"{""mean"": 243.8, ""bench"": ""chameleon-f385b3120de5d5"", ""payload"": ""{\""nrow\"": 264, \""ncol\"": 264}""}",1,1,1,1,1
+10,"{""mean"": 10.0, ""bench"": ""rnn_serving-2207ecc6f16f"", ""payload"": ""{\""minio_address\"": \""icy1.cslab.ece.ntua.gr:59000\"", \""bucket_name\"": \""snaplace-fbpml\"", \""language\"": \""Chinese\"", \""start_letters\"": \""BCDEFGHIJKLMNOPQRSTUVWXY\"", \""model_parameter_object_key\"": \""rnn_params.pkl\"", \""model_object_key\"": \""rnn_model.pth\""}""}",1,1,1,1,1
+541,"{""mean"": 543.2, ""bench"": ""chameleon-1c0f690c40298c"", ""payload"": ""{\""nrow\"": 400, \""ncol\"": 400}""}",1,1,1,1,1
+76,"{""mean"": 76.0, ""bench"": ""pyaes-d0a16aff570e36de4d"", ""payload"": ""{\""message_length\"": 64, \""num_iterations\"": 151}""}",1,1,1,1,1
+82,"{""mean"": 81.4, ""bench"": ""chameleon-9c8958ad2d2358"", ""payload"": ""{\""nrow\"": 144, \""ncol\"": 144}""}",1,1,1,1,1
+270,"{""mean"": 267.3, ""bench"": ""pyaes-9ec8cd7eb8b66d40e2"", ""payload"": ""{\""message_length\"": 208, \""num_iterations\"": 201}""}",1,1,1,1,1
+545,"{""mean"": 543.2, ""bench"": ""chameleon-1c0f690c40298c"", ""payload"": ""{\""nrow\"": 400, \""ncol\"": 400}""}",1,1,1,1,1
+104,"{""mean"": 103.1, ""bench"": ""pyaes-0958d24d76320041c5"", ""payload"": ""{\""message_length\"": 48, \""num_iterations\"": 251}""}",0,1,2,1,0
+138,"{""mean"": 136.9, ""bench"": ""pyaes-fb46d0a4dd72bee359"", ""payload"": ""{\""message_length\"": 288, \""num_iterations\"": 76}""}",1,1,1,1,1
+88,"{""mean"": 88.0, ""bench"": ""chameleon-b8166d3fd45201"", ""payload"": ""{\""nrow\"": 152, \""ncol\"": 152}""}",1,1,1,1,1
+297,"{""mean"": 295.3, ""bench"": ""pyaes-62e028396f54a96948"", ""payload"": ""{\""message_length\"": 480, \""num_iterations\"": 101}""}",0,1,2,1,0
+1504,"{""mean"": 1489.2, ""bench"": ""chameleon-c1dbbbf7f0e25b"", ""payload"": ""{\""nrow\"": 664, \""ncol\"": 664}""}",2,2,0,0,1
+2621,"{""mean"": 2594.8, ""bench"": ""pyaes-bc838c4bf15df84f13"", ""payload"": ""{\""message_length\"": 3584, \""num_iterations\"": 126}""}",1,1,1,1,0
+204,"{""mean"": 202.8, ""bench"": ""chameleon-fbbc73efd81509"", ""payload"": ""{\""nrow\"": 240, \""ncol\"": 240}""}",1,1,1,1,1
+105,"{""mean"": 105.6, ""bench"": ""chameleon-75bfff6460c525"", ""payload"": ""{\""nrow\"": 168, \""ncol\"": 168}""}",1,1,1,1,1
+1340,"{""mean"": 1345.4, ""bench"": ""chameleon-2449bcf27497b9"", ""payload"": ""{\""nrow\"": 632, \""ncol\"": 632}""}",1,1,1,1,0
+22,"{""mean"": 22.0, ""bench"": ""chameleon-65a1a192ef1d59"", ""payload"": ""{\""nrow\"": 56, \""ncol\"": 56}""}",1,1,1,1,1
+20,"{""mean"": 19.9, ""bench"": ""chameleon-ba8fa7721b7f50"", ""payload"": ""{\""nrow\"": 48, \""ncol\"": 48}""}",1,1,1,1,1
+112,"{""mean"": 111.1, ""bench"": ""pyaes-61196e257c532afcec"", ""payload"": ""{\""message_length\"": 352, \""num_iterations\"": 51}""}",0,1,1,1,1
+337,"{""mean"": 335.8, ""bench"": ""chameleon-f0550b971b732f"", ""payload"": ""{\""nrow\"": 312, \""ncol\"": 312}""}",1,1,1,1,1
+220,"{""mean"": 220.7, ""bench"": ""json_serdes-074f2a064b17"", ""payload"": ""{\""minio_address\"": \""icy1.cslab.ece.ntua.gr:59000\"", \""bucket_name\"": \""snaplace-fbpml\"", \""file_name\"": \""gen02_n6784.json\""}""}",1,1,1,1,1
+60,"{""mean"": 60.6, ""bench"": ""chameleon-51e0e775314fbc"", ""payload"": ""{\""nrow\"": 120, \""ncol\"": 120}""}",1,1,1,1,1
+206,"{""mean"": 205.8, ""bench"": ""pyaes-857b701ab968081803"", ""payload"": ""{\""message_length\"": 672, \""num_iterations\"": 51}""}",0,1,1,1,1
+145,"{""mean"": 146.3, ""bench"": ""chameleon-092b841af2ffcd"", ""payload"": ""{\""nrow\"": 200, \""ncol\"": 200}""}",0,1,1,1,1
+1500,"{""mean"": 1489.2, ""bench"": ""chameleon-c1dbbbf7f0e25b"", ""payload"": ""{\""nrow\"": 664, \""ncol\"": 664}""}",1,2,1,0,0
+23,"{""mean"": 23.0, ""bench"": ""pyaes-4fa243e605e3e2346c"", ""payload"": ""{\""message_length\"": 128, \""num_iterations\"": 26}""}",1,1,1,1,1
+111,"{""mean"": 110.0, ""bench"": ""pyaes-058b0661282d9bde44"", ""payload"": ""{\""message_length\"": 704, \""num_iterations\"": 26}""}",1,1,1,1,1
+174,"{""mean"": 174.9, ""bench"": ""json_serdes-60155bbfca3d"", ""payload"": ""{\""minio_address\"": \""icy1.cslab.ece.ntua.gr:59000\"", \""bucket_name\"": \""snaplace-fbpml\"", \""file_name\"": \""gen02_n5248.json\""}""}",1,0,1,1,1
+399,"{""mean"": 398.6, ""bench"": ""json_serdes-21e42cbf6a25"", ""payload"": ""{\""minio_address\"": \""icy1.cslab.ece.ntua.gr:59000\"", \""bucket_name\"": \""snaplace-fbpml\"", \""file_name\"": \""gen02_n12544.json\""}""}",1,1,1,0,0
+1970,"{""mean"": 1975.3, ""bench"": ""chameleon-1102a8bda7caf5"", ""payload"": ""{\""nrow\"": 768, \""ncol\"": 768}""}",1,1,1,1,1
+131,"{""mean"": 132.3, ""bench"": ""new_lr_serving-403fc2732"", ""payload"": ""{\""minio_address\"": \""icy1.cslab.ece.ntua.gr:59000\"", \""bucket_name\"": \""snaplace-fbpml\"", \""model_object_key\"": \""lr_model_reviews100mb.pk\"", \""tfidf_vect_object_key\"": \""lr_vectorizer_reviews100mb.pk\"", \""x\"": \""The ambiance is magical. The food and service was nice! The lobster and cheese was to die for and our steaks were cooked perfectly.  \""}""}",0,1,1,1,1
+122,"{""mean"": 121.3, ""bench"": ""pyaes-a1eaefa55f5706d00f"", ""payload"": ""{\""message_length\"": 96, \""num_iterations\"": 176}""}",0,1,1,1,1
+124,"{""mean"": 124.2, ""bench"": ""chameleon-735d1589b60c31"", ""payload"": ""{\""nrow\"": 184, \""ncol\"": 184}""}",1,1,1,1,1
+86,"{""mean"": 86.0, ""bench"": ""pyaes-1314ad9f3c97746397"", ""payload"": ""{\""message_length\"": 544, \""num_iterations\"": 26}""}",1,1,1,1,1
+2732,"{""mean"": 2706.3, ""bench"": ""pyaes-f4c6f799a8c04460b5"", ""payload"": ""{\""message_length\"": 3712, \""num_iterations\"": 126}""}",2,1,0,0,0
+1013,"{""mean"": 1005.3, ""bench"": ""pyaes-95e9d78c9803ce05d7"", ""payload"": ""{\""message_length\"": 976, \""num_iterations\"": 176}""}",1,1,1,1,1
+176,"{""mean"": 174.9, ""bench"": ""json_serdes-60155bbfca3d"", ""payload"": ""{\""minio_address\"": \""icy1.cslab.ece.ntua.gr:59000\"", \""bucket_name\"": \""snaplace-fbpml\"", \""file_name\"": \""gen02_n5248.json\""}""}",0,1,1,1,1
+125,"{""mean"": 126.1, ""bench"": ""json_serdes-0acf29630a34"", ""payload"": ""{\""minio_address\"": \""icy1.cslab.ece.ntua.gr:59000\"", \""bucket_name\"": \""snaplace-fbpml\"", \""file_name\"": \""gen02_n3712.json\""}""}",1,1,1,1,1
+453,"{""mean"": 448.7, ""bench"": ""pyaes-34ac01921fa95cb33d"", ""payload"": ""{\""message_length\"": 3008, \""num_iterations\"": 26}""}",0,0,3,0,0
+461,"{""mean"": 463.3, ""bench"": ""chameleon-a67cd08e80ba00"", ""payload"": ""{\""nrow\"": 368, \""ncol\"": 368}""}",1,1,1,1,1
+159,"{""mean"": 158.2, ""bench"": ""pyaes-0d65410aaddcd1fd15"", ""payload"": ""{\""message_length\"": 336, \""num_iterations\"": 76}""}",0,0,1,1,1
+2633,"{""mean"": 2633.3, ""bench"": ""pyaes-6d49d3e64261cb4001"", ""payload"": ""{\""message_length\"": 4480, \""num_iterations\"": 101}""}",1,1,1,1,1
+485,"{""mean"": 484.1, ""bench"": ""chameleon-2377c4644e5e28"", ""payload"": ""{\""nrow\"": 376, \""ncol\"": 376}""}",0,1,1,1,1
+629,"{""mean"": 622.9, ""bench"": ""pyaes-e946b510f938fef46a"", ""payload"": ""{\""message_length\"": 2112, \""num_iterations\"": 51}""}",0,0,1,1,1
+306,"{""mean"": 303.9, ""bench"": ""chameleon-7bb36be2d0d21d"", ""payload"": ""{\""nrow\"": 296, \""ncol\"": 296}""}",1,1,1,1,1
+80864,"{""mean"": 20802.8, ""bench"": ""lr_training-76dbbdb25bea"", ""payload"": ""{\""minio_address\"": \""icy1.cslab.ece.ntua.gr:59000\"", \""bucket_name\"": \""snaplace-fbpml\"", \""dataset_object_key\"": \""reviews50mb.csv\""}""}",1,1,1,1,1
+72,"{""mean"": 71.9, ""bench"": ""pyaes-e39c44503dc4bcc7a4"", ""payload"": ""{\""message_length\"": 32, \""num_iterations\"": 226}""}",0,1,1,1,0
+3228,"{""mean"": 3209.6, ""bench"": ""pyaes-073f82a00ebd169641"", ""payload"": ""{\""message_length\"": 26624, \""num_iterations\"": 21}""}",1,0,0,1,1
+119,"{""mean"": 117.9, ""bench"": ""json_serdes-87f4f6b4073e"", ""payload"": ""{\""minio_address\"": \""icy1.cslab.ece.ntua.gr:59000\"", \""bucket_name\"": \""snaplace-fbpml\"", \""file_name\"": \""search.json\""}""}",0,1,1,1,1
+2314,"{""mean"": 2329.5, ""bench"": ""chameleon-1cf10f889b443a"", ""payload"": ""{\""nrow\"": 832, \""ncol\"": 832}""}",1,0,1,1,1
+74,"{""mean"": 73.8, ""bench"": ""pyaes-a2bff0c0d366655b4b"", ""payload"": ""{\""message_length\"": 144, \""num_iterations\"": 76}""}",1,1,1,1,1
+492,"{""mean"": 488.7, ""bench"": ""pyaes-ff4a9b49d281b97bc4"", ""payload"": ""{\""message_length\"": 3264, \""num_iterations\"": 26}""}",0,0,2,0,0
+142,"{""mean"": 141.1, ""bench"": ""pyaes-6043762fb4e330639b"", ""payload"": ""{\""message_length\"": 22528, \""num_iterations\"": 1}""}",0,1,1,1,0
+173,"{""mean"": 171.7, ""bench"": ""pyaes-d78d2eabc4130e2d13"", ""payload"": ""{\""message_length\"": 96, \""num_iterations\"": 251}""}",0,0,1,1,1
+219,"{""mean"": 220.7, ""bench"": ""json_serdes-074f2a064b17"", ""payload"": ""{\""minio_address\"": \""icy1.cslab.ece.ntua.gr:59000\"", \""bucket_name\"": \""snaplace-fbpml\"", \""file_name\"": \""gen02_n6784.json\""}""}",0,0,0,1,1
+1750,"{""mean"": 1739.3, ""bench"": ""chameleon-27b70e30fb06c6"", ""payload"": ""{\""nrow\"": 720, \""ncol\"": 720}""}",1,1,1,1,1
+46,"{""mean"": 46.0, ""bench"": ""pyaes-aa1b3da5b10e2862a0"", ""payload"": ""{\""message_length\"": 7232, \""num_iterations\"": 1}""}",0,0,1,1,1
+195,"{""mean"": 193.8, ""bench"": ""pyaes-56aaeac9934c9d1097"", ""payload"": ""{\""message_length\"": 240, \""num_iterations\"": 126}""}",0,0,1,1,1
+117,"{""mean"": 117.9, ""bench"": ""json_serdes-87f4f6b4073e"", ""payload"": ""{\""minio_address\"": \""icy1.cslab.ece.ntua.gr:59000\"", \""bucket_name\"": \""snaplace-fbpml\"", \""file_name\"": \""search.json\""}""}",1,1,1,1,1
+89,"{""mean"": 89.4, ""bench"": ""json_serdes-7ade72e2060b"", ""payload"": ""{\""minio_address\"": \""icy1.cslab.ece.ntua.gr:59000\"", \""bucket_name\"": \""snaplace-fbpml\"", \""file_name\"": \""gen02_n2560.json\""}""}",1,1,1,0,1
+51,"{""mean"": 50.6, ""bench"": ""new_lr_serving-fe03e8302"", ""payload"": ""{\""minio_address\"": \""icy1.cslab.ece.ntua.gr:59000\"", \""bucket_name\"": \""snaplace-fbpml\"", \""model_object_key\"": \""lr_model_reviews10mb.pk\"", \""tfidf_vect_object_key\"": \""lr_vectorizer_reviews10mb.pk\"", \""x\"": \""The ambiance is magical. The food and service was nice! The lobster and cheese was to die for and our steaks were cooked perfectly.  \""}""}",1,0,1,1,1
+90,"{""mean"": 89.4, ""bench"": ""json_serdes-7ade72e2060b"", ""payload"": ""{\""minio_address\"": \""icy1.cslab.ece.ntua.gr:59000\"", \""bucket_name\"": \""snaplace-fbpml\"", \""file_name\"": \""gen02_n2560.json\""}""}",1,1,1,1,1
+167,"{""mean"": 167.0, ""bench"": ""chameleon-83fbfc1b3862b6"", ""payload"": ""{\""nrow\"": 216, \""ncol\"": 216}""}",0,1,1,0,0
+201,"{""mean"": 199.7, ""bench"": ""json_serdes-1499ec562029"", ""payload"": ""{\""minio_address\"": \""icy1.cslab.ece.ntua.gr:59000\"", \""bucket_name\"": \""snaplace-fbpml\"", \""file_name\"": \""gen02_n6016.json\""}""}",0,0,1,1,1
+179,"{""mean"": 178.8, ""bench"": ""cnn_serving_geol-c606f6a"", ""payload"": ""{\""img_idx\"": 1}""}",0,0,1,1,0
+274,"{""mean"": 272.9, ""bench"": ""chameleon-61ea3a2d41e6e4"", ""payload"": ""{\""nrow\"": 280, \""ncol\"": 280}""}",0,0,1,1,0
+546,"{""mean"": 543.2, ""bench"": ""chameleon-1c0f690c40298c"", ""payload"": ""{\""nrow\"": 400, \""ncol\"": 400}""}",0,0,0,2,0
+44,"{""mean"": 44.4, ""bench"": ""chameleon-c6c4954e7213ea"", ""payload"": ""{\""nrow\"": 100, \""ncol\"": 100}""}",0,1,1,1,0
+101,"{""mean"": 100.1, ""bench"": ""pyaes-22afe1151dd1638b89"", ""payload"": ""{\""message_length\"": 15872, \""num_iterations\"": 1}""}",0,1,1,1,0
+78,"{""mean"": 77.6, ""bench"": ""json_serdes-b9511188d251"", ""payload"": ""{\""minio_address\"": \""icy1.cslab.ece.ntua.gr:59000\"", \""bucket_name\"": \""snaplace-fbpml\"", \""file_name\"": \""gen02_n2176.json\""}""}",0,0,1,1,0
+185,"{""mean"": 185.0, ""bench"": ""json_serdes-5e5e016ad2a6"", ""payload"": ""{\""minio_address\"": \""icy1.cslab.ece.ntua.gr:59000\"", \""bucket_name\"": \""snaplace-fbpml\"", \""file_name\"": \""gen02_n5632.json\""}""}",0,0,0,2,0
+27,"{""mean"": 27.1, ""bench"": ""chameleon-ac48fff161ac8b"", ""payload"": ""{\""nrow\"": 68, \""ncol\"": 68}""}",0,1,1,1,0
+39,"{""mean"": 39.0, ""bench"": ""pyaes-eb5eeb2692ad705449"", ""payload"": ""{\""message_length\"": 6144, \""num_iterations\"": 1}""}",0,0,0,1,1
+321,"{""mean"": 319.4, ""bench"": ""chameleon-eeb3139bf32dc5"", ""payload"": ""{\""nrow\"": 304, \""ncol\"": 304}""}",1,1,0,0,0
+807,"{""mean"": 807.3, ""bench"": ""chameleon-e1fd5fd55a0f02"", ""payload"": ""{\""nrow\"": 488, \""ncol\"": 488}""}",0,0,1,1,1
+100,"{""mean"": 99.4, ""bench"": ""new_lr_serving-5bb35e320"", ""payload"": ""{\""minio_address\"": \""icy1.cslab.ece.ntua.gr:59000\"", \""bucket_name\"": \""snaplace-fbpml\"", \""model_object_key\"": \""lr_model_reviews50mb.pk\"", \""tfidf_vect_object_key\"": \""lr_vectorizer_reviews50mb.pk\"", \""x\"": \""The ambiance is magical. The food and service was nice! The lobster and cheese was to die for and our steaks were cooked perfectly.  \""}""}",1,0,0,1,1
+93,"{""mean"": 92.7, ""bench"": ""pyaes-19887fa212e1a63b90"", ""payload"": ""{\""message_length\"": 48, \""num_iterations\"": 226}""}",0,1,1,1,1
+527,"{""mean"": 524.6, ""bench"": ""chameleon-051ce101935ff3"", ""payload"": ""{\""nrow\"": 392, \""ncol\"": 392}""}",1,0,0,0,0
+260,"{""mean"": 257.4, ""bench"": ""pyaes-0769f5fd6c82cc3191"", ""payload"": ""{\""message_length\"": 560, \""num_iterations\"": 76}""}",0,0,1,0,1
+2935,"{""mean"": 2910.2, ""bench"": ""pyaes-1abd87229ca1fa9fd9"", ""payload"": ""{\""message_length\"": 6592, \""num_iterations\"": 76}""}",0,0,1,1,0
+902,"{""mean"": 893.5, ""bench"": ""pyaes-8fe94f456dadae6c27"", ""payload"": ""{\""message_length\"": 864, \""num_iterations\"": 176}""}",0,1,1,1,0
+41,"{""mean"": 41.0, ""bench"": ""json_serdes-6391d6a86064"", ""payload"": ""{\""minio_address\"": \""icy1.cslab.ece.ntua.gr:59000\"", \""bucket_name\"": \""snaplace-fbpml\"", \""file_name\"": \""2.json\""}""}",1,0,0,0,1
+65,"{""mean"": 65.0, ""bench"": ""new_lr_serving-231155e15"", ""payload"": ""{\""minio_address\"": \""icy1.cslab.ece.ntua.gr:59000\"", \""bucket_name\"": \""snaplace-fbpml\"", \""model_object_key\"": \""lr_model_reviews20mb.pk\"", \""tfidf_vect_object_key\"": \""lr_vectorizer_reviews20mb.pk\"", \""x\"": \""My favorite cafe. I like going there on weekends, always taking a cafe and some of their pastry before visiting my parents.  \""}""}",0,0,0,0,1
+315,"{""mean"": 314.3, ""bench"": ""pyaes-52e1973aeee038c41a"", ""payload"": ""{\""message_length\"": 336, \""num_iterations\"": 151}""}",0,0,0,0,1
+5313,"{""mean"": 5266.7, ""bench"": ""pyaes-7ded116b6333314138"", ""payload"": ""{\""message_length\"": 29696, \""num_iterations\"": 31}""}",0,0,1,1,0
+256,"{""mean"": 256.3, ""bench"": ""json_serdes-b4de0d2b5b15"", ""payload"": ""{\""minio_address\"": \""icy1.cslab.ece.ntua.gr:59000\"", \""bucket_name\"": \""snaplace-fbpml\"", \""file_name\"": \""gen02_n7936.json\""}""}",0,0,0,0,1
+190,"{""mean"": 191.7, ""bench"": ""chameleon-9ce0dddd6e471e"", ""payload"": ""{\""nrow\"": 232, \""ncol\"": 232}""}",1,1,0,0,0
+475,"{""mean"": 470.3, ""bench"": ""pyaes-a1c359ada02ca9b8d5"", ""payload"": ""{\""message_length\"": 336, \""num_iterations\"": 226}""}",1,0,0,0,1
+165,"{""mean"": 164.1, ""bench"": ""pyaes-ed7511b8a2c3b12440"", ""payload"": ""{\""message_length\"": 528, \""num_iterations\"": 51}""}",1,0,0,0,0
+218,"{""mean"": 216.1, ""bench"": ""chameleon-6ed55e1932e7ab"", ""payload"": ""{\""nrow\"": 248, \""ncol\"": 248}""}",0,0,0,1,1
+194,"{""mean"": 193.8, ""bench"": ""pyaes-56aaeac9934c9d1097"", ""payload"": ""{\""message_length\"": 240, \""num_iterations\"": 126}""}",0,0,1,1,0
+947,"{""mean"": 942.6, ""bench"": ""chameleon-12494c681d4610"", ""payload"": ""{\""nrow\"": 528, \""ncol\"": 528}""}",0,1,0,0,0
+84,"{""mean"": 84.0, ""bench"": ""pyaes-33a6789136aedba281"", ""payload"": ""{\""message_length\"": 528, \""num_iterations\"": 26}""}",0,0,1,1,0
+602,"{""mean"": 596.2, ""bench"": ""pyaes-a973e34872f97e3aac"", ""payload"": ""{\""message_length\"": 1008, \""num_iterations\"": 101}""}",0,1,1,0,0
+150,"{""mean"": 149.0, ""bench"": ""pyaes-82dc8cbab72f4ddf36"", ""payload"": ""{\""message_length\"": 976, \""num_iterations\"": 26}""}",1,0,0,1,0
+344,"{""mean"": 341.3, ""bench"": ""pyaes-2a4c28a87dfa156e09"", ""payload"": ""{\""message_length\"": 752, \""num_iterations\"": 76}""}",0,0,0,0,1
+1018,"{""mean"": 1008.1, ""bench"": ""pyaes-b75830ff975b5bab42"", ""payload"": ""{\""message_length\"": 6656, \""num_iterations\"": 26}""}",0,1,0,0,0
+29,"{""mean"": 29.0, ""bench"": ""pyaes-bffec0970e9034a153"", ""payload"": ""{\""message_length\"": 4544, \""num_iterations\"": 1}""}",0,0,1,0,0
+102,"{""mean"": 102.4, ""bench"": ""json_serdes-cdefb462b209"", ""payload"": ""{\""minio_address\"": \""icy1.cslab.ece.ntua.gr:59000\"", \""bucket_name\"": \""snaplace-fbpml\"", \""file_name\"": \""gen02_n2944.json\""}""}",0,0,1,0,0
+67,"{""mean"": 66.6, ""bench"": ""json_serdes-1109c8561c7e"", ""payload"": ""{\""minio_address\"": \""icy1.cslab.ece.ntua.gr:59000\"", \""bucket_name\"": \""snaplace-fbpml\"", \""file_name\"": \""gen02_n1792.json\""}""}",0,0,0,0,1
+326,"{""mean"": 327.4, ""bench"": ""json_serdes-8477692692fb"", ""payload"": ""{\""minio_address\"": \""icy1.cslab.ece.ntua.gr:59000\"", \""bucket_name\"": \""snaplace-fbpml\"", \""file_name\"": \""gen02_n10240.json\""}""}",0,0,0,1,1
+123,"{""mean"": 124.2, ""bench"": ""chameleon-735d1589b60c31"", ""payload"": ""{\""nrow\"": 184, \""ncol\"": 184}""}",0,0,1,0,0
+62,"{""mean"": 62.1, ""bench"": ""chameleon-2b1f3dd81ea572"", ""payload"": ""{\""nrow\"": 124, \""ncol\"": 124}""}",0,0,0,1,0
+103,"{""mean"": 102.4, ""bench"": ""json_serdes-cdefb462b209"", ""payload"": ""{\""minio_address\"": \""icy1.cslab.ece.ntua.gr:59000\"", \""bucket_name\"": \""snaplace-fbpml\"", \""file_name\"": \""gen02_n2944.json\""}""}",0,0,1,1,0
+1925,"{""mean"": 1938.0, ""bench"": ""chameleon-3bf9920b79be8f"", ""payload"": ""{\""nrow\"": 760, \""ncol\"": 760}""}",0,0,0,1,1
+476,"{""mean"": 473.6, ""bench"": ""pyaes-7893bd8f2d37078c7a"", ""payload"": ""{\""message_length\"": 624, \""num_iterations\"": 126}""}",0,0,1,1,0
+108,"{""mean"": 107.0, ""bench"": ""pyaes-1fcaf92cb9fca60728"", ""payload"": ""{\""message_length\"": 160, \""num_iterations\"": 101}""}",0,1,0,0,0
+136,"{""mean"": 135.2, ""bench"": ""cnn_serving_geol-f9eecf9"", ""payload"": ""{\""img_idx\"": 0}""}",0,0,1,0,0
+323,"{""mean"": 321.1, ""bench"": ""pyaes-e03a12ab512ee73bd7"", ""payload"": ""{\""message_length\"": 704, \""num_iterations\"": 76}""}",0,0,0,0,1
+625,"{""mean"": 620.1, ""bench"": ""pyaes-441daaf29a5c72b501"", ""payload"": ""{\""message_length\"": 4096, \""num_iterations\"": 26}""}",1,0,0,0,0
+236,"{""mean"": 234.2, ""bench"": ""pyaes-3cf2febf39f5ade173"", ""payload"": ""{\""message_length\"": 208, \""num_iterations\"": 176}""}",0,0,0,1,0
+2758,"{""mean"": 2741.1, ""bench"": ""pyaes-1d211d28ec9182010d"", ""payload"": ""{\""message_length\"": 6208, \""num_iterations\"": 76}""}",0,0,0,1,1
+67890,"{""mean"": 20802.8, ""bench"": ""lr_training-76dbbdb25bea"", ""payload"": ""{\""minio_address\"": \""icy1.cslab.ece.ntua.gr:59000\"", \""bucket_name\"": \""snaplace-fbpml\"", \""dataset_object_key\"": \""reviews50mb.csv\""}""}",0,0,0,1,1
+153,"{""mean"": 151.5, ""bench"": ""pyaes-af7bdfdea42611da8f"", ""payload"": ""{\""message_length\"": 320, \""num_iterations\"": 76}""}",0,0,0,1,1
+466,"{""mean"": 469.2, ""bench"": ""json_serdes-b0be75f6222a"", ""payload"": ""{\""minio_address\"": \""icy1.cslab.ece.ntua.gr:59000\"", \""bucket_name\"": \""snaplace-fbpml\"", \""file_name\"": \""gen02_n14848.json\""}""}",0,0,0,1,1
+1435,"{""mean"": 1443.3, ""bench"": ""chameleon-336b0d74e678b1"", ""payload"": ""{\""nrow\"": 656, \""ncol\"": 656}""}",0,0,0,1,0
+255,"{""mean"": 256.3, ""bench"": ""json_serdes-b4de0d2b5b15"", ""payload"": ""{\""minio_address\"": \""icy1.cslab.ece.ntua.gr:59000\"", \""bucket_name\"": \""snaplace-fbpml\"", \""file_name\"": \""gen02_n7936.json\""}""}",0,0,0,1,0
+729,"{""mean"": 728.7, ""bench"": ""chameleon-ef70f02f209686"", ""payload"": ""{\""nrow\"": 464, \""ncol\"": 464}""}",0,1,0,0,0
+248,"{""mean"": 248.0, ""bench"": ""pyaes-38b7fbcb6d0b1e303a"", ""payload"": ""{\""message_length\"": 400, \""num_iterations\"": 101}""}",0,0,0,1,0
+275,"{""mean"": 272.9, ""bench"": ""chameleon-61ea3a2d41e6e4"", ""payload"": ""{\""nrow\"": 280, \""ncol\"": 280}""}",0,0,0,1,0
+706,"{""mean"": 706.3, ""bench"": ""chameleon-33734646b79746"", ""payload"": ""{\""nrow\"": 456, \""ncol\"": 456}""}",0,0,1,0,0
+327,"{""mean"": 327.4, ""bench"": ""json_serdes-8477692692fb"", ""payload"": ""{\""minio_address\"": \""icy1.cslab.ece.ntua.gr:59000\"", \""bucket_name\"": \""snaplace-fbpml\"", \""file_name\"": \""gen02_n10240.json\""}""}",0,0,0,1,0
+1090,"{""mean"": 1091.4, ""bench"": ""chameleon-ce9cc4f327d1f6"", ""payload"": ""{\""nrow\"": 568, \""ncol\"": 568}""}",0,0,0,0,1
+128,"{""mean"": 127.0, ""bench"": ""pyaes-589d7b6cecf98c4c8a"", ""payload"": ""{\""message_length\"": 64, \""num_iterations\"": 251}""}",0,0,1,0,0
+2801,"{""mean"": 2794.1, ""bench"": ""chameleon-c61856413a5b40"", ""payload"": ""{\""nrow\"": 912, \""ncol\"": 912}""}",0,0,0,0,1
+2445,"{""mean"": 2420.8, ""bench"": ""pyaes-0dc455a254392d9922"", ""payload"": ""{\""message_length\"": 19968, \""num_iterations\"": 21}""}",1,0,0,0,0
+146,"{""mean"": 146.3, ""bench"": ""chameleon-092b841af2ffcd"", ""payload"": ""{\""nrow\"": 200, \""ncol\"": 200}""}",1,0,0,0,0
+923,"{""mean"": 917.5, ""bench"": ""pyaes-b5de45aa3ad8c170b0"", ""payload"": ""{\""message_length\"": 14336, \""num_iterations\"": 11}""}",0,0,0,0,1
+363,"{""mean"": 360.2, ""bench"": ""pyaes-3e7a93d91dfdbc3b46"", ""payload"": ""{\""message_length\"": 592, \""num_iterations\"": 101}""}",0,0,0,0,1
+778,"{""mean"": 781.0, ""bench"": ""video_processing-0db4925"", ""payload"": ""{\""minio_address\"": \""icy1.cslab.ece.ntua.gr:59000\"", \""bucket_name\"": \""snaplace-fbpml\"", \""vid_name\"": \""big_buck_bunny_240p_2mb.mp4\""}""}",0,1,0,0,0
+18783,"{""mean"": 20802.8, ""bench"": ""lr_training-76dbbdb25bea"", ""payload"": ""{\""minio_address\"": \""icy1.cslab.ece.ntua.gr:59000\"", \""bucket_name\"": \""snaplace-fbpml\"", \""dataset_object_key\"": \""reviews50mb.csv\""}""}",0,1,0,0,0
+1147,"{""mean"": 1150.0, ""bench"": ""chameleon-2429c9fc2fc77c"", ""payload"": ""{\""nrow\"": 584, \""ncol\"": 584}""}",0,0,1,0,0
+4205,"{""mean"": 4175.9, ""bench"": ""chameleon-b6858e3daaf274"", ""payload"": ""{\""nrow\"": 1120, \""ncol\"": 1120}""}",1,0,0,0,0
+731,"{""mean"": 728.7, ""bench"": ""chameleon-ef70f02f209686"", ""payload"": ""{\""nrow\"": 464, \""ncol\"": 464}""}",0,1,0,0,0
+8607,"{""mean"": 8658.3, ""bench"": ""pyaes-b5ab16c6c6f08c6022"", ""payload"": ""{\""message_length\"": 29696, \""num_iterations\"": 51}""}",0,1,0,0,0
+1510,"{""mean"": 1522.9, ""bench"": ""chameleon-ff8896a9f94721"", ""payload"": ""{\""nrow\"": 672, \""ncol\"": 672}""}",0,0,1,0,0
+184,"{""mean"": 185.0, ""bench"": ""json_serdes-5e5e016ad2a6"", ""payload"": ""{\""minio_address\"": \""icy1.cslab.ece.ntua.gr:59000\"", \""bucket_name\"": \""snaplace-fbpml\"", \""file_name\"": \""gen02_n5632.json\""}""}",0,0,0,1,0
+51641,"{""mean"": 20802.8, ""bench"": ""lr_training-76dbbdb25bea"", ""payload"": ""{\""minio_address\"": \""icy1.cslab.ece.ntua.gr:59000\"", \""bucket_name\"": \""snaplace-fbpml\"", \""dataset_object_key\"": \""reviews50mb.csv\""}""}",1,0,0,0,0
+3109,"{""mean"": 3083.3, ""bench"": ""chameleon-a28242c8ad67c2"", ""payload"": ""{\""nrow\"": 960, \""ncol\"": 960}""}",0,0,0,0,1

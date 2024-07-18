@@ -1,0 +1,30 @@
+[package]
+name = "faasrail-loadgen"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+description = "FaaSRail's load generator"
+repository = "https://github.com/ckatsak/faasrail-loadgen"
+readme = "README.md"
+
+[dependencies]
+compact_str = { version = "0.8", features = ["serde"] }
+csv = "1.3"
+humantime = "2"
+rand = { version = "0.8", default-features = false }
+rand_distr = "0.4"
+rand_chacha = "0.3"
+rand_xoshiro = "0.6"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+static_assertions = "1.1"
+thiserror = "1"
+tokio = { workspace = true, features = ["rt", "sync", "time"] }
+tracing = "0.1"
+
+[dev-dependencies]
+anyhow = "1"
+const_format = "0.2"
+rand = { version = "0.8", default-features = false, features = ["small_rng"] }
+tracing-test = "0.2"
