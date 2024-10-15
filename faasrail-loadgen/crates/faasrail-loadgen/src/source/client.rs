@@ -60,30 +60,8 @@ impl SourceClient {
             None
         };
 
-        let mut br = BufReader::new(File::options().read(true).open(&csv_path).map_err(|err| {
-            Error::Io {
-                msg: format!("failed to open CSV file {:?}", csv_path.as_ref()).into_boxed_str(),
-                source: err,
-            }
-        })?);
-
-        // Discard the headers' line
-        {
-            let _nr = br.read_line(&mut String::new()).map_err(|err| Error::Io {
-                msg: "failed to read headers line in CSV file".into(),
-                source: err,
-            })?;
-        }
-
-        let rows: Vec<FunctionRow> = {
-            let mut rdr = ::csv::ReaderBuilder::new()
-                .has_headers(false)
-                .from_reader(br);
-            rdr.deserialize()
-                .collect::<Result<_, _>>()
-                .map_err(Error::CsvDeserialization)?
-        };
-        // NOTE: Handling the above as a stream would prevent us from initializing the Barrier:
+        let rows = Self::parse_csv(&csv_path)?;
+        // NOTE: Handling the parsing as a stream would prevent us from initializing the Barrier:
         let sync = Arc::new(WorkerSync {
             barrier: Barrier::new(rows.len()),
             invoc_id: AtomicU64::new(invoc_id_start),
@@ -177,6 +155,30 @@ impl SourceClient {
             }
         }
         Ok(num_requests)
+    }
+
+    pub fn parse_csv(csv_path: impl AsRef<Path>) -> Result<Vec<FunctionRow>, Error> {
+        let mut br = BufReader::new(File::options().read(true).open(&csv_path).map_err(|err| {
+            Error::Io {
+                msg: format!("failed to open CSV file {:?}", csv_path.as_ref()).into_boxed_str(),
+                source: err,
+            }
+        })?);
+
+        // Discard the headers' line
+        {
+            let _nr = br.read_line(&mut String::new()).map_err(|err| Error::Io {
+                msg: "failed to read headers line in CSV file".into(),
+                source: err,
+            })?;
+        }
+
+        let mut rdr = ::csv::ReaderBuilder::new()
+            .has_headers(false)
+            .from_reader(br);
+        rdr.deserialize()
+            .collect::<Result<_, _>>()
+            .map_err(Error::CsvDeserialization)
     }
 }
 
