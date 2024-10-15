@@ -92,7 +92,7 @@ impl<B: super::backend::Backend> SinkClient<B> {
                         error!(error = ?err, "Failed to append to file JSON-encoded '{resp:?}': {err:#}");
                     }
                     num_resps += 1;
-                    if let Err(err) = bw.write_all(&[b'\n']) {
+                    if let Err(err) = bw.write_all(b"\n") {
                         error!(error = ?err, "Failed to append newline after a Response: {err:#}");
                     }
                     // TODO

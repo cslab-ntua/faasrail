@@ -69,7 +69,7 @@ impl<W: Write> Logger<W> {
             num_requests += 1;
 
             ::serde_json::to_writer(&mut self.writer, &lreq).map_err(Error::JsonSerialization)?;
-            self.writer.write_all(&[b'\n']).map_err(|err| Error::Io {
+            self.writer.write_all(b"\n").map_err(|err| Error::Io {
                 msg: "error apending newline to writer".into(),
                 err,
             })?;

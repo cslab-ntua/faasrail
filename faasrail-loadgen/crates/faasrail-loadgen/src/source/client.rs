@@ -217,7 +217,7 @@ impl InvocationLogger {
         while let Some((function_id, invocation_id)) = self.rx.blocking_recv() {
             let line = ::serde_json::json!({ invocation_id: function_id });
             ::serde_json::to_writer(&mut self.bw, &line).map_err(Error::JsonSerialization)?;
-            self.bw.write_all(&[b'\n']).map_err(|err| Error::Io {
+            self.bw.write_all(b"\n").map_err(|err| Error::Io {
                 msg: "failed to append newline".into(),
                 source: err,
             })?;
