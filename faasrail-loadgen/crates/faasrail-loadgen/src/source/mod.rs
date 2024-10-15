@@ -17,9 +17,9 @@ pub use minuterange::MinuteRange;
 #[derive(Debug, ::serde::Deserialize)]
 pub struct FunctionRow {
     #[serde(rename = "avg")]
-    pavg: f64,
-    mapped_wreq: String,
-    rpm: Vec<u32>,
+    pub pavg: f64,
+    pub mapped_wreq: String,
+    pub rpm: Vec<u32>,
 }
 
 #[cfg(test)]
