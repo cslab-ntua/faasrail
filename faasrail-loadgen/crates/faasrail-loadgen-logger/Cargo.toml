@@ -7,6 +7,7 @@ authors.workspace = true
 description = "FaaSRail's load generator - Logger"
 repository = "https://github.com/ckatsak/faasrail-loadgen"
 readme = "README.md"
+rust-version = "1.75.0"
 
 [dependencies]
 anyhow = "1"
