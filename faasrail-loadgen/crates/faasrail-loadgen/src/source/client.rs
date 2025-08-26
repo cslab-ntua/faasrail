@@ -49,7 +49,7 @@ impl SourceClient {
         let mut rng = match seed {
             Some(0) => SecureRng::seed_from_u64(Self::DEFAULT_FIXED_SEED),
             Some(seed) => SecureRng::seed_from_u64(seed),
-            None => SecureRng::from_entropy(),
+            None => SecureRng::from_os_rng(),
         };
 
         // Initialize the InvocationLogger, if configured

@@ -115,7 +115,7 @@ impl<G: IatGenerator, B: Backend> FunctionWorker<G, B> {
     }
 
     #[instrument(level = Level::INFO, skip(self), fields(function_id = %self.wreq.bench, self._pavg))] // FIXME?
-    pub async fn run(mut self) -> Result<u64, Error> {
+    pub(super) async fn run(mut self) -> Result<u64, Error> {
         const ONE_MINUTE: Duration = Duration::from_secs(60);
 
         // Workers won't start until kicked

@@ -45,14 +45,14 @@ impl IatGenerator for Poisson {
 #[derive(Debug, Clone, Copy)]
 pub struct Uniform;
 impl IatGenerator for Uniform {
-    type Error = Infallible;
+    type Error = ::rand_distr::uniform::Error;
 
     fn gen<R: Rng + Send + Sync + 'static>(
         &self,
         rpm: u32,
         rng: R,
     ) -> Result<impl FusedIterator<Item = MicroSeconds> + Send + Sync + 'static, Self::Error> {
-        let uni = ::rand_distr::Uniform::new(0., 1.);
+        let uni = ::rand_distr::Uniform::new(0., 1.)?;
         let mut iat_sum = 0.;
         let iats = uni
             .sample_iter(rng)
@@ -61,7 +61,7 @@ impl IatGenerator for Uniform {
                 iat_sum += iat;
             })
             .collect::<Vec<_>>();
-        // FIXME: So far, Uniform is the slowest to run. Maybe reduce allocations?
+        // TODO: So far, Uniform is the slowest to run. Maybe reduce allocations?
         let ret = iats
             .into_iter()
             .map(move |iat| (iat * MICROSECONDS_PER_MINUTE / iat_sum) as u64);
@@ -101,7 +101,7 @@ mod tests {
     #[traced_test]
     fn poisson0() -> Result<()> {
         //let mut rng = SmallRng::seed_from_u64(crate::source::client::DEFAULT_FIXED_SEED);
-        let rng = SmallRng::from_entropy();
+        let rng = SmallRng::from_os_rng();
 
         let p = Poisson;
         for lambda in &[3, 25, 50, 100, 200] {
@@ -132,7 +132,7 @@ mod tests {
     #[traced_test]
     fn uniform0() -> Result<()> {
         //let mut rng = SmallRng::seed_from_u64(crate::source::client::DEFAULT_FIXED_SEED);
-        let rng = SmallRng::from_entropy();
+        let rng = SmallRng::from_os_rng();
 
         let u = Uniform;
         for rpm in &[3, 25, 50, 100, 200] {
@@ -163,7 +163,7 @@ mod tests {
     #[traced_test]
     fn equidistant0() -> Result<()> {
         //let mut rng = SmallRng::seed_from_u64(crate::source::client::DEFAULT_FIXED_SEED);
-        let rng = SmallRng::from_entropy();
+        let rng = SmallRng::from_os_rng();
 
         let e = Equidistant;
         for rpm in &[3, 25, 50, 100, 200] {
