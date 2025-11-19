@@ -2,6 +2,7 @@
 members = [
     "crates/faasrail-loadgen",
     "crates/faasrail-loadgen-logger",
+    "crates/faasrail-http",
 ]
 resolver = "2"
 

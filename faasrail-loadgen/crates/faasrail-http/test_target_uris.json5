@@ -1,0 +1,21 @@
+{
+	"functions": {
+		"helloworld": "http://aerofb-helloworld-fc.default.147.102.4.82.sslip.io",
+		"chameleon": "http://aerofb-chameleon-fc.default.147.102.4.82.sslip.io",
+		"cnn_serving": "http://aerofb-cnn-serving-fc.default.147.102.4.82.sslip.io",
+		"image_processing": "http://aerofb-image-processing-fc.default.147.102.4.82.sslip.io",
+		"json_serdes": "http://aerofb-json-serdes-fc.default.147.102.4.82.sslip.io",
+		"lr_serving": "http://aerofb-lr-serving-fc.default.147.102.4.82.sslip.io",
+		"lr_training": "http://aerofb-lr-training-fc.default.147.102.4.82.sslip.io",
+		"matmul": "http://aerofb-matmul-fc.default.147.102.4.82.sslip.io",
+		"pyaes": "http://aerofb-pyaes-fc.default.147.102.4.82.sslip.io",
+		"rnn_serving": "http://aerofb-rnn-serving-fc.default.147.102.4.82.sslip.io",
+		"video_processing": "http://aerofb-video-processing-fc.default.147.102.4.82.sslip.io"
+	},
+	"rules": [
+		{
+			"pattern": "@FUNCTION_ID@",
+			"template": "http://aerofb-@FUNCTION_ID@-fc.default.192.168.42.42.sslip.io"
+		}
+	]
+}
